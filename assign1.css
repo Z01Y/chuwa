@@ -53,3 +53,26 @@ input {
   float: right;
   margin-right: 25%;
 }
+
+.drop {
+  float: left;
+  width: 100%;
+  list-style-type: none;
+}
+
+.menu {
+  list-style: none;
+}
+
+.menu {
+  display: none;
+  position: absolute;
+}
+
+.drop:hover .menu {
+  display: block;
+}
+
+.menu li:hover {
+  background-color: #f3f3f3;
+}
