@@ -3,6 +3,8 @@
   margin: 25px 0;
   font-size: 20px;
   width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .styled-table thead tr {
@@ -21,4 +23,33 @@
 
 .styled-table tbody tr: :nth-of-type(even) {
   background-color: #f3f3f3;
+}
+
+.search-box {
+  margin: auto;
+  top: 40%;
+  height: auto;
+  width: 100%;
+}
+
+input {
+  border: 3px solid ##eafff1;
+  height: 40px;
+  width: 600px;
+  border-radius: 50px;
+  padding: 0px 10px;
+  margin: auto;
+  display: block;
+}
+
+.ordered {
+  width: 25%;
+  float: left;
+  margin-left: 25%;
+}
+
+.unordered {
+  width: 25%;
+  float: right;
+  margin-right: 25%;
 }
