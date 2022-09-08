@@ -53,3 +53,9 @@ input {
   float: right;
   margin-right: 25%;
 }
+
+#dropdown {
+  margin-left: 45%;
+  margin-top: 80px;
+  font-size: 30px;
+}
